@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NMGF4LH7');</script>
-    <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Josh's Watermelon Game</title>
@@ -15,10 +8,6 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMGF4LH7"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -67,15 +56,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebglV2.5.loader.js";
+      var loaderUrl = buildUrl + "/WebglV2.6.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebglV2.5.data",
-        frameworkUrl: buildUrl + "/WebglV2.5.framework.js",
-        codeUrl: buildUrl + "/WebglV2.5.wasm",
+        dataUrl: buildUrl + "/WebglV2.6.data",
+        frameworkUrl: buildUrl + "/WebglV2.6.framework.js",
+        codeUrl: buildUrl + "/WebglV2.6.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "com.JoshMann15.www",
         productName: "Josh's Watermelon Game",
-        productVersion: "2.5",
+        productVersion: "2.6",
         showBanner: unityShowBanner,
       };
 
